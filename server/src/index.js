@@ -9,7 +9,16 @@ import jobRoutes from './routes/jobs.js';
 
 dotenv.config();
 const app = express();
-app.use(cors());
+// app.use(cors());
+
+app.use(
+  cors({
+    origin: [
+      "https://jobtracker-git-main-irshads-projects-72a625a3.vercel.app",
+    ],
+    credentials: true,
+  })
+);
 app.use(express.json());
 app.use(morgan('dev'));
 
