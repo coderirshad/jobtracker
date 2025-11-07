@@ -1,6 +1,6 @@
 # MERN Job Tracker (Portfolio-ready)
 
-A clean Job Application Tracker you can deploy fast. Replaces basic Todos with real-world job tracking.
+A clean Job Application Tracker 
 
 **Features**
 - Auth (JWT): Register/Login
@@ -19,20 +19,10 @@ cp .env.example .env
 npm run dev
 ```
 ### Client
-```bash
+
 cd client
 npm install
 cp .env.example .env
-# set: VITE_API_BASE=http://localhost:4000/api
 npm run dev
 ```
 
-### Deploy
-- Backend → Render (Web Service)
-- Frontend → Vercel
-- Set envs accordingly
-
-### Portfolio Tips
-- Add demo user in seed
-- Put screenshots in README
-- Add short product story: problem → your solution → stack → live link
