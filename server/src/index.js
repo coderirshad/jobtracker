@@ -14,7 +14,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://jobtracker-git-main-irshads-projects-72a625a3.vercel.app",
+      "https://jobtracker-two-sage.vercel.app",
     ],
     credentials: true,
   })
